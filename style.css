@@ -1,6 +1,51 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family:"Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.common-btn{
+   background-color: #1B4FE0;
+   padding: 10px 20px;
+   border-radius: 12px;
+   font-weight: bold;
+   color: #FFFFFF;
+   border: none;
+}
+
+/* Navbar Section */
+.nav-root-parent{
+   background-color: #FFFFFF; 
+}
+
+
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 80px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 22px;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+}
+
+/* Navbar Section End */
