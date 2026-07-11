@@ -309,7 +309,7 @@ nav a {
     border: 1px solid #2563EB;
     border-radius: 6px;
     font-weight: 700;
-    transition: 0.3s;
+    
 }
 
 /* Featured Pro Card */
@@ -352,9 +352,81 @@ nav a {
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;
-    transition: 0.3s ease;
+    
 }
 
 /* <!-- Pricing Section End --> */
+
+
+/* Footer Section */
+
+.footer-section {
+    background-color: #0D1B2A;
+    padding: 40px 20px 25px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer-logo img {
+    width: 120px;
+    display: block;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a {
+    width: 42px;
+    height: 42px;
+    background-color: #0D1B2A;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-social i {
+    font-size: 17px;
+}
+
+.footer-section hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom p {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 22px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+/* Footer Section End */
+
 
 
