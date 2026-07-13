@@ -40,7 +40,7 @@
 
 }
 
-ul {
+.nav-menu ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -205,6 +205,7 @@ nav a {
     font-size: 14px;
     line-height: 1.5;
 }
+
 /* Meet the speaker Section End */
 
 /* Pricing Section */
@@ -309,7 +310,7 @@ nav a {
     border: 1px solid #2563EB;
     border-radius: 6px;
     font-weight: 700;
-    
+
 }
 
 /* Featured Pro Card */
@@ -339,6 +340,7 @@ nav a {
     color: #ffffff;
     border-color: #2563EB;
 }
+
 /* Contact Button */
 
 .contact-btn {
@@ -352,10 +354,164 @@ nav a {
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;
-    
+
 }
 
 /* <!-- Pricing Section End --> */
+
+/* Something Missing */
+
+
+/* Explore DevConf Section */
+
+.explore-section {
+    background-color: #F4F7FC;
+    padding: 90px 20px;
+}
+
+.explore-heading {
+    max-width: 680px;
+    margin: 0 auto 48px;
+    text-align: center;
+}
+
+.explore-heading>span {
+    display: inline-block;
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: 10px;
+}
+
+.explore-heading h2 {
+    color: #0D1B2A;
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+
+.explore-heading p {
+    color: #575757;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.explore-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 360px;
+    padding: 28px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 14px;
+}
+
+.explore-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAF0FF;
+    color: #2563EB;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+
+.explore-icon i {
+    font-size: 20px;
+}
+
+.card-number {
+    position: absolute;
+    top: 25px;
+    right: 28px;
+    color: #D5DCE8;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.explore-card h3 {
+    color: #0D1B2A;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.explore-card>p {
+    color: #575757;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 22px;
+}
+
+.card-detail {
+    padding: 15px 0;
+    margin-bottom: 22px;
+    border-top: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.card-detail strong {
+    display: block;
+    color: #0D1B2A;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.card-detail span {
+    color: #777777;
+    font-size: 12px;
+}
+
+.explore-btn {
+    width: 100%;
+    margin-top: auto;
+    padding: 11px 18px;
+    background-color: transparent;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.explore-btn:hover {
+    background-color: #2563EB;
+    color: #FFFFFF;
+}
+
+.explore-note {
+    max-width: 750px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 35px auto 0;
+    padding: 18px 22px;
+    background-color: #0D1B2A;
+    border-radius: 10px;
+}
+
+.explore-note i {
+    color: #73A3FF;
+    font-size: 20px;
+}
+
+.explore-note p {
+    color: #D9E2EC;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
 
 
 /* Footer Section */
@@ -392,7 +548,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .footer-social i {
@@ -426,7 +582,5 @@ nav a {
     color: #FFFFFF;
     font-size: 14px;
 }
+
 /* Footer Section End */
-
-
-
